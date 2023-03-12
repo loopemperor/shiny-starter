@@ -9,11 +9,6 @@
 
 library(shiny)
 
-source("./ui/tab-panel-data.R")
-source("./ui/tab-panel-model.R")
-source("./ui/tab-panel-output.R")
-source("./ui/tab-panel-download.R")
-
 ui <- navbarPage(
   title = "Simple Starter App",
   tabPanel("Data", tab_panel_data()),
